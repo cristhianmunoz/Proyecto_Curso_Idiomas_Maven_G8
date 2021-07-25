@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="courses_Languagues_0.List_StudentsTest" time="0.015" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="courses_Languagues_0.List_StudentsTest" time="0.017" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.1.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,7 +64,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="courses_Languagues_0.List_StudentsTest" name="given_Student_when_add_then_tiemout" time="0.006"/>
-  <testcase classname="courses_Languagues_0.List_StudentsTest" name="given_IDStudent_when_unsubscribe_then_timeout" time="0.004"/>
-  <testcase classname="courses_Languagues_0.List_StudentsTest" name="given_IDStudent_when_unsubscribe_then_okay" time="0.005"/>
+  <testcase classname="courses_Languagues_0.List_StudentsTest" name="given_Student_when_add_then_tiemout" time="0.009"/>
+  <testcase classname="courses_Languagues_0.List_StudentsTest" name="given_IDStudent_when_unsubscribe_then_timeout" time="0.005"/>
+  <testcase classname="courses_Languagues_0.List_StudentsTest" name="given_IDStudent_when_unsubscribe_then_okay" time="0.003"/>
 </testsuite>

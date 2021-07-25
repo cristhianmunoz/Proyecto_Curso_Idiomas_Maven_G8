@@ -74,6 +74,7 @@ public class Main {
         lp.darDeBaja(profesor[0],cursos);
 
         System.out.println("Este es un cambio de comprobación");
+        System.out.println("Este es sgundo cambio para la  comprobación Programación Extrema");
 
     }
 }
