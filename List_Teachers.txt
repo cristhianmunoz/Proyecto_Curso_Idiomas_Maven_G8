@@ -1,0 +1,12 @@
+21;Juan;Perez;true;
+22;Marcelo;Murillo;true;
+23;Beto;Amaguana;true;
+20;Marisol;Colcha;true;
+19;Mary;Ramirez;true;
+24;Lupe;Fernandez;true;
+21;Juan;Perez;true;
+22;Marcelo;Murillo;true;
+23;Beto;Amaguana;true;
+20;Marisol;Colcha;true;
+19;Mary;Ramirez;true;
+24;Lupe;Fernandez;true;
