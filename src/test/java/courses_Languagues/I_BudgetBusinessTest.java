@@ -9,17 +9,10 @@ import ec.edu.epn.courses_Languagues.*;
 public class I_BudgetBusinessTest {
 
     @Test
-    public void given_one_double_then_recalculateBudget_ok() {
-        I_BudgetBusiness bb = Mockito.mock(I_BudgetBusiness.class);
-        Mockito.when(bb.recalculateBudget(450.6)).thenReturn(669.6);
-        assertEquals(669.6,bb.recalculateBudget(450.6),1120);
+    public void given_A_weekNumber_returnPayment_then_ok() {
+        I_BudgetBusiness rPayment = Mockito.mock(I_BudgetBusiness.class);
+        Mockito.when(rPayment.returnPayment(6)).thenReturn(140.0);
+        assertEquals(140.0,rPayment.returnPayment(6),0);
     }
 
-    @Test
-    public void given_one_double_then_recalculateBudget_error() {
-        I_BudgetBusiness bb = Mockito.mock(I_BudgetBusiness.class);
-        Mockito.when(bb.recalculateBudget(450.6)).thenReturn(669.6);
-        assertEquals(0,bb.recalculateBudget(450),-1120);
-
-    }
 }
